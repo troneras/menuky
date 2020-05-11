@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+.sidebar-link:hover, .sidebar-link-active {
+    @apply border-l-4 border-indigo-600 bg-gray-100;
+}
+
+.sidebar-link {
+    @apply border-l-4 flex items-center;
+}
+
+.sidebar-link-icon {
+    @apply h-4 w-4 ml-4;
+}
+
+.sidebar-link-a {
+    @apply font-bold block py-4 ml-2;
+}
+
+@tailwind utilities;
